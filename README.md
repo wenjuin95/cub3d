@@ -1,5 +1,7 @@
 # cub3d (Raycasting Engine)
 
+<img src="https://github.com/wenjuin95/cub3d/blob/main/cub3d.gif" />
+
 This project is a small 3D engine built with **C** and **MiniLibX**, inspired by Wolfenstein-style rendering.
 
 It reads a `.cub` map file, casts one ray per screen column, and draws textured walls, floor/ceiling colors, and a minimap.

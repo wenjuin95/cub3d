@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   cub3d.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: welow <welow@student.42kl.edu.my>          +#+  +:+       +#+        */
+/*   By: welow < welow@student.42kl.edu.my>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/18 19:56:10 by welow             #+#    #+#             */
-/*   Updated: 2025/01/21 12:02:11 by welow            ###   ########.fr       */
+/*   Updated: 2026/05/11 14:58:28 by welow            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,12 +29,24 @@
 # define RIGHT 65363
 # define MAP 109
 
-//campus
+//////////////////////////// settings
+
+// //campus
+// # define MOVE_SPEED 0.1
+// # define ROTATE_SPEED 0.1
+
+//full screen
 # define MOVE_SPEED 0.1
-# define ROTATE_SPEED 0.1
+# define ROTATE_SPEED 0.5
 
 //mouse sensitivity
-# define MOUSE_ROTATE 0.025
+# define MOUSE_ROTATE 0.1
+
+//////////////////////////// windows size
+
+////laptop
+//# define WIN_WIDTH 640
+//# define WIN_HEIGHT 480
 
 //campus
 //# define WIN_WIDTH 1280
@@ -44,17 +56,6 @@
 # define WIN_WIDTH 1920
 # define WIN_HEIGHT 1200
 
-////full screen
-//# define MOVE_SPEED 0.9
-//# define ROTATE_SPEED 0.1
-
-////laptop
-//# define WIN_WIDTH 640
-//# define WIN_HEIGHT 480
-
-////laptop
-//# define MOVE_SPEED 0.1
-//# define ROTATE_SPEED 0.1
 
 # define TEXTURE_SIZE 64
 # define VERTICAL 0
